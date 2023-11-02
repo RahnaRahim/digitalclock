@@ -1,0 +1,85 @@
+
+    
+    body{
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: rgb(49, 146, 117);
+        border: 2px solid white ;
+        
+    }
+    
+    .box{
+        text-align: center;
+       
+    }
+    
+    .hours, .minutes, .seconds{
+        width: 3rem;
+        height: 3rem;
+        background-color: rgba(20, 124, 156, 0.692);
+        padding: 1em;
+        margin: 1em;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 3px 3px 9px #17f796, -3px -3px 9px  #172921;
+      
+    }
+    
+    #hours, #minutes, #seconds{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+
+    }
+    
+    
+    h2{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: -5px;
+        color: rgb(0, 0, 0);
+       
+    }
+    @media (max-width:450px){
+        .hours, .minutes, .seconds{
+            width: 1.5rem;
+            height: 1.5rem;
+            background-color: rgba(26, 119, 148, 0.692);
+            padding: 1em;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 3px 3px 9px #17f796, -3px -3px 9px  #172921;
+            margin-top: -20px;
+        }
+        
+        #hours, #minutes, #seconds{
+            font-size: 20px;
+            color: rgb(0, 6, 7);
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+    
+        }
+        
+        
+        h2{
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 15px;
+            margin-top: -5px;
+            color: rgb(0, 0, 0);
+        }
+        
+    }
